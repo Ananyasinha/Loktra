@@ -1,0 +1,220 @@
+ body{background-color:#f0f0f0}
+ h9{font-size:25px;font-family:calibri;font-weight:600;color:red;}
+ h10{font-size:25px;font-family:calibri;font-weight:100;color:#a0a0a0;}
+ h11{font-size:26px;font-family:calibri;font-weight:100;color:white;}
+ h12{font-size:26px;font-family:calibri;font-weight:600;color:#a0a0a0;}
+ h13{font-size:22px;font-family:calibri;font-weight:100;color:#0066ff;}
+ h14{font-size:30px;font-family:calibri;font-weight:600;color:#000;}
+ h15{font-size:25px;font-family:tahoma;font-weight:100;color:#a0a0a0;}
+ h16{font-size:22px;font-family:tahoma;font-weight:600;color:#494543;}
+ h17{font-size:25px;font-family:'Arvo', serif;font-weight:100;color:white;}
+ h18{font-size:23px;font-family:'calibri', serif;font-weight:100;color:#a0a0a0;}
+ h19{font-size:20px;font-family:'calibri', serif;font-weight:100;color:#a0a0a0;}
+
+#complete_area_of_donate_box{position:absolute;left:370px;width:600px;height:615px;top:15px;background-color:white;box-shadow:0px 0px 1px 1px #a0a0a0} 
+#complete_area_for_days_left_and_give_now_button{position:absolute;left:50px;width:500px;height:350px;top:135px;box-shadow:0px 0px 0px 1px #e0e0e0;background-color:#f9f9f9}
+#only_three_days_left_writen{position:absolute;left:50px;width:420px;height:180px;top:50px;}
+#complete_area_for_50_dollar_writen{position:absolute;left:40px;width:180px;height:60px;top:225px;box-shadow:0px 0px 1px 1px #d0d0d0;border-radius:3px 3px 3px 3px;}
+#give_now{position:absolute;right:40px;width:180px;height:60px;top:225px;box-shadow:0px 0px 1px 1px #a0a0a0;border-radius:3px 3px 3px 3px;background-color:#7DC906;outline:none;border:none;}
+#dollar_sign{position:absolute;left:10px;top:12px;}
+#fifty_writen_area_active{position:absolute;left:35px;top:10px;width:122px;height:30px;border:none;outline:none;background-color:#f9f9f9;display:block}
+#fifty_writen_area_inactive{position:absolute;left:35px;top:10px;width:122px;height:30px;border:none;outline:none;background-color:#f9f9f9;display:none}
+#why_give_writen{position:absolute;left:40px;top:300px;}
+#save_for_later{position:absolute;left:50px;width:230px;height:70px;top:510px;border:none;box-shadow:0px 0px 1px 1px #a0a0a0;background-color:#f0f0f0}
+#tell_your_friends{position:absolute;right:50px;width:230px;height:70px;top:510px;border:none;box-shadow:0px 0px 1px 1px #a0a0a0;background-color:#f0f0f0}
+
+#progress_bar{position:absolute;left:0px;top:0px;width:500px;height:22px;background-color:#f0f0f0;box-shadow:0px 0px 1px 1px #e0e0e0}
+#red_bar{position:absolute;left:0px;top:1px;width:300px;height:20px;background-color:#F74305}
+#still_need_for_the_project_complete{position:absolute;left:50px;width:500px;height:85px;top:30px;box-shadow:0px 0px 0px 1px #e0e0e0;background-color:#494543;border-radius:4px 4px 4px 4px;}
+#arrow_downward{position:absolute;right:70px;top:75px;}
+
+#still_needed_for_this_project_writen_active{position:absolute;left:55px;width:400px;height:60px;top:24px;display:block;}
+#still_needed_for_this_project_writen_inactive{position:absolute;left:55px;width:400px;height:60px;top:24px;display:none;}
+#complete_successfully_saved{position:absolute;left:40%;width:280px;height:60px;top:-110px;background-color:#f8f8f8;box-shadow:0px 0px 1px 1px #a0a0a0;display:block}
+#successfully_saved_writen{position:absolute;left:50px;top:15px;}
+#cross_sign{position:absolute;right:10px;top:-2px;cursor:pointer;}
+
+
+
+@media only screen and (max-width:1300px) {
+    #complete_area_of_donate_box{
+      left:360px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    #complete_area_of_donate_box{
+      left:300px;
+    }
+}
+
+
+
+@media only screen and (max-width:1100px) {
+    #complete_area_of_donate_box{
+      left:200px;
+    }
+}
+
+
+
+@media only screen and (max-width:1000px) {
+    #complete_area_of_donate_box{
+      left:100px;
+    }
+}
+
+
+@media only screen and (max-width:900px) {
+    #complete_area_of_donate_box{
+      left:90px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    #complete_area_of_donate_box{
+      left:70px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    #complete_area_of_donate_box{
+      left:30px;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    #complete_area_of_donate_box{
+      left:0px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #complete_area_of_donate_box{
+      left:0px;
+      width:500px;
+    }
+    #still_need_for_the_project_complete{
+      left:0px;
+      width:400px;
+      left:50px;
+    }
+    #still_needed_for_this_project_writen_active{
+      left:5px;
+    }
+    #still_needed_for_this_project_writen_inactive{
+      left:5px;
+    }
+    #complete_area_for_days_left_and_give_now_button{
+      width:400px;
+    }
+    #only_three_days_left_writen{
+      left:5px;
+    }
+    #progress_bar{
+     width:400px; 
+    }
+    #red_bar{
+      width:200px;
+    }
+    #complete_area_for_50_dollar_writen{
+      width:100px;
+    }
+    #fifty_writen_area_active{
+      width:40px;  
+    }
+    #fifty_writen_area_inactive{
+      width:40px;  
+    }
+    #tell_your_friends{
+      width:190px;
+    }
+    #save_for_later{
+     width:190px;
+    }
+    h15{font-size:22px;}
+
+}
+
+
+@media only screen and (max-width:517px){
+    #complete_area_of_donate_box{
+      width:370px;
+      left:50px;
+    }
+    #still_need_for_the_project_complete{
+      width:300px;
+      left:30px;
+    }
+    #still_needed_for_this_project_writen_active{
+      left:10px;
+      width:300px;
+    }
+    #still_needed_for_this_project_writen_inactive{
+      left:10px;
+      width:300px;
+    }
+    #complete_area_for_days_left_and_give_now_button{
+      width:300px;
+      left:30px;
+    }
+    #progress_bar{
+      width:300px;
+    }
+    #red_bar{
+      width:100px;
+    }
+    #complete_area_for_50_dollar_writen{
+      width:;
+    }  
+    #give_now{
+      width:100px;
+    }
+    #tell_your_friends{
+      width:130px;
+      right:40px;
+    }
+    #save_for_later{
+     width:130px;
+     left:30px;
+    }  
+#complete_successfully_saved{left:10%;}
+
+h17{font-size:18px;}
+h9{font-size:18px;}
+h10{font-size:18px;}
+h11{font-size:18px;}
+
+}
+
+@media only screen and (max-width:472px){
+    #complete_area_of_donate_box{
+      width:370px;
+      left:40px;
+    }
+
+}
+
+@media only screen and (max-width:452px){
+    #complete_area_of_donate_box{
+      width:370px;
+      left:30px;
+    }
+
+}
+
+@media only screen and (max-width:417px){
+    #complete_area_of_donate_box{
+      width:370px;
+      left:20px;
+    }
+
+}
+
+@media only screen and (max-width:380px){
+    #complete_area_of_donate_box{
+      width:370px;
+      left:0px;
+    }
+
+}

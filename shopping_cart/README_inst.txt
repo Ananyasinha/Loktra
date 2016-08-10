@@ -1,0 +1,1 @@
+(Import shopping_cart.sql in system's localhost server to create "shopping_cart" database.)*

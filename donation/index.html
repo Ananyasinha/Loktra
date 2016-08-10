@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Donate | Loktra</title>
+<link rel="icon" href="logo.jpg" type="image/png" sizes="16x16">
+<link rel="stylesheet" type="text/css" href="arvo.css">
+<link rel="stylesheet" type="text/css" href="home.css">
+
+
+<script src="jquery.js"></script>
+<script src="jquery_new.js"></script>
+
+</head>
+<body>
+
+<div id='complete_area_of_donate_box'>
+
+  <div id='still_need_for_the_project_complete'>
+      <div id='still_needed_for_this_project_writen_active'><h17>$167 still needed for this project</h17></div>
+      <div id='still_needed_for_this_project_writen_inactive'><h17>$117 still needed for this project</h17></div>
+      <div id='arrow_downward'><h16>&#x25BC</h16></div>
+  </div>
+
+  <div id='complete_area_for_days_left_and_give_now_button'>
+     
+     <div id='progress_bar'>
+       <div id='red_bar'></div>
+     </div>
+     
+     <div id='only_three_days_left_writen'>
+       <h9>Only 3 days left</h9><h10> &nbspto fund this project.</h10>
+       <br/><br/><h10>Join the 42 other donors who have <br/> already supported this project. Every<br/> dollars helps.</h10>
+     </div>
+     
+     <div id='complete_area_for_50_dollar_writen'>
+       <div id='dollar_sign'><h12>$</h12></div>
+       <div id='fifty_writen_area_active'><h14>50</h14></div>
+       <div id='fifty_writen_area_inactive'><h14>PAID</h14></div> 
+     </div>
+     
+     <button id='give_now'><h11>Give Now</h11></button>
+     
+     <div id='why_give_writen'><h13><i>Why Give $50</i> ?</h13></div> 
+   
+  </div>
+ 
+
+  <button id='save_for_later'><h15>Save for later</h15></button>
+  <a href="javascript:fbShare('http://jsfiddle.net/stichoza/EYxTJ/', 'Fb Share', 'Facebook share popup', 'http://goo.gl/dS52U', 520, 350)">
+  <button id='tell_your_friends'><h15>Tell your friends</h15></button>
+  </a>
+</div>
+
+<div id='complete_successfully_saved'>
+  <div id='successfully_saved_writen'><h18>Successfully Saved</h18></div>
+  <div id='cross_sign'><h19>x</h19></div>
+</div> 
+
+
+</body>
+
+<script type="text/javascript">
+
+ $(document).ready(function(){
+          $("#give_now").click(function(){
+          $("#red_bar").animate({width:'80%'},400);
+          $('#still_needed_for_this_project_writen_active').css('display','none');
+          $('#still_needed_for_this_project_writen_inactive').css('display','block'); 
+          $('#fifty_writen_area_active').css('display','none');
+          $('#fifty_writen_area_inactive').css('display','block');  
+          });
+});
+ 
+$(document).ready(function(){
+          $("#save_for_later").click(function(){
+          $("#complete_successfully_saved").animate({top:'10px'},400);
+          });
+}); 
+
+$(document).ready(function(){
+          $("#cross_sign").click(function(){
+          $("#complete_successfully_saved").animate({top:'-100px'},400);
+          });
+}); 
+
+
+
+    function fbShare(url, title, descr, image, winWidth, winHeight) {
+        var winTop = (screen.height / 2) - (winHeight / 2);
+        var winLeft = (screen.width / 2) - (winWidth / 2);
+        window.open('http://www.facebook.com/sharer.php?s=100&p[title]=' + title + '&p[summary]=' + descr + '&p[url]=' + url + '&p[images][0]=' + image, 'sharer', 'top=' + winTop + ',left=' + winLeft + ',toolbar=0,status=0,width=' + winWidth + ',height=' + winHeight);
+    }
+
+
+
+</script>
+
+
+
+</html>
